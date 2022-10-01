@@ -1,0 +1,654 @@
+/* Video #03 */
+
+.special {
+  color: red;
+}
+
+#special2 {
+  color: aqua;
+}
+
+/*
+Color.
+*/
+
+/* Video #04*/
+
+/*
+- You cant name "class" whit number in first litter like "1test"
+- you can name the class like "user-test"
+*/
+
+/* Video #05 */
+
+.video06 {
+  background-color: rgba(206, 191, 56, 0.89);
+  background-image: url(/image/background.png);
+  background-repeat: no-repeat; /* repeat-x or Repeat-y or No-reapeat*/
+}
+
+/* video #06 */
+
+.video06 {
+  background-attachment: scroll; /* scroll , fixed */
+  background-position: center center; /* X et Y */
+  background-position: 0px; /* pixel em cm h*/
+  background-size: cover; /* cover , containe*/
+  background-size: 1366px 768px; /* whit pixels or 100%*/
+}
+
+/*Video #07 */
+
+.video07 {
+  background-color: rgb(151, 92, 92);
+  padding: 5px 10px 10px 10px; /* top Right Bottom left */
+  padding: 5px 10px; /* 5px => top bottom And 10px => left Right*/
+}
+
+/* Video #08 */
+
+.video08 {
+  background-color: rgb(182, 112, 54);
+  padding: 10px;
+  margin: 10px; /* Accepted Negative Value and porcentage*/
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Video #09*/
+
+.video09 {
+  background-color: rgb(68 68 68);
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+  border-width: 10px;
+  border-color: rgb(175, 46, 46) rgb(74, 179, 93);
+  border-style: solid;
+}
+
+/* video #10 */
+
+.video10 {
+  background-color: #ddd;
+  width: 300px;
+  padding: 10px;
+  border: 10px solid red;
+  /*outline: 10px solid blue;*/
+}
+
+/* Video #11 */
+
+/*
+--Block--
+
+-take Full width If No Width
+-Add Line
+-Respect padding and margin
+
+--inline
+-No Respect width height
+-Do Not new line
+-padding and margin just Left Right
+
+--inline-block
+-Allow Elements Before And After It
+-Respect Paddding, Margin, Width, Height
+
+*/
+
+.block11 {
+  background-color: aqua;
+  display: block;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.inline11 {
+  background-color: aquamarine;
+  display: inline;
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+}
+
+.inlineblock11 {
+  background-color: beige;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+}
+
+/* Video #12 */
+
+.video12 {
+  background-color: bisque;
+  margin: 10px 0;
+  display: none; /* Not Display Content*/
+  visibility: hidden; /* not replace position of element*/
+}
+
+/* Video #13*/
+.video13-1 {
+  border-bottom: 2px solid rgb(35, 153, 153);
+  color: red;
+}
+
+.video13-2 {
+  border-bottom: 2px solid rgb(35, 153, 153);
+  color: rgb(89, 156, 33);
+}
+
+.video13-3 {
+  border-bottom: 2px solid red;
+  color: rgb(28, 16, 194);
+}
+
+.video13-4 {
+  border-bottom: 2px solid rgb(35, 153, 153);
+  color: rgb(0, 255, 76);
+}
+
+.video13-1,
+.video13-2,
+.video13-3,
+.video13-4 {
+  padding: 10px;
+  background-color: antiquewhite;
+  margin: 10px 0;
+}
+
+/* Video #14*/
+
+.video14 h2 {
+  color: green;
+}
+.video14 p {
+  color: red;
+}
+div .p-video14 {
+  color: blue;
+}
+/* video #15*/
+
+.video15 {
+  background-color: aquamarine;
+  padding: 10px;
+  display: inline-block;
+  min-width: 300px;
+  max-width: 405px;
+  min-height: 40px;
+  max-height: 100px;
+  width: fit-content;
+}
+
+/* #video 16 */
+
+.video16-1 {
+  width: 150px;
+  height: 150px;
+  background-color: #eee;
+  margin: 20px auto;
+  border-radius: 6px;
+  overflow: auto; /* scroll, hidden,visible*/
+}
+
+.video16-2 {
+  width: 150px;
+  height: 150px;
+  background-color: #eee;
+  margin: 20px auto;
+  border-radius: 6px;
+  overflow-x: hidden; /* scroll, hidden,visible*/
+  overflow-y: hidden; /* scroll, hidden,visible*/
+}
+
+/* Video #17 */
+
+.video17 {
+  background-color: #c4abab;
+  color: rgb(10, 2, 7);
+  text-shadow: 1px 1px 1px rgb(248, 255, 183); /* Text Shadow: H-Shadow V-Shadow Blur*/
+}
+
+/* Video #18 */
+
+.video18 {
+  background-color: #fdecec;
+  text-align: center;
+  direction: rtl; /* Right to Left*/
+}
+
+.imgvideo18 {
+  vertical-align: middle;
+}
+
+/* Video 19*/
+
+.video19 {
+  background-color: rgba(0, 110, 255, 0.247);
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+
+.video19 a {
+  color: white;
+  background-color: red;
+  padding: 5px 10px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* #video 20*/
+
+.video20 {
+  letter-spacing: 1px; /* accept negative value*/
+  text-indent: 100px; /* space after letter*/
+}
+
+.video20-1 {
+  background-color: aqua;
+  line-height: 1.6;
+  word-spacing: 1px;
+}
+
+.video20-2 {
+  background-color: #413636;
+  width: 300px;
+  white-space: nowrap;
+}
+
+.video20-3 {
+  background: #eee;
+  width: 300px;
+  word-break: break-all; /* breal-all , break-word*/
+}
+
+/* Video #21*/
+
+.video21 {
+  background-color: #ddd;
+  padding: 10px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.video21:hover {
+  overflow: visible;
+}
+
+/* Video #22 */
+
+.video22-0 {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  font-size: 20px;
+  border: 2px solid red;
+}
+
+div .video22-2 {
+  border: 2px solid;
+  border-color: inherit; /* الوراثة*/
+}
+
+/* Video #23 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.video23 {
+  background-color: #ddd;
+  padding: 15px;
+  /* font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;*/
+}
+
+.video23-1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.video23-2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Video #24 */
+
+/*
+  CSS Units:
+    -px
+    -em => Time
+    -rem => Root Time
+    -vw => View Port Width
+    -percentage
+
+*/
+
+.video24-1 {
+  font-size: 20px;
+}
+
+.span-video24-1-2 {
+  font-size: 2em;
+}
+
+div .video24 .video24-1 .span-video-1-1 {
+  font-size: 2vw;
+}
+
+/* Video #25 */
+/*
+  Font Style
+  Font Variant
+  Font Weight
+*/
+
+.video25-1 {
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+/* Video #26 */
+
+.mouse-video26-2 {
+  cursor: pointer;
+}
+.mouse-video26-1 {
+  cursor: grab;
+}
+
+/* Video #27 */
+
+/*
+Float 
+Clear
+*/
+
+.video27 {
+  background-color: red;
+  padding: 10px;
+}
+
+.video27 div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #eee;
+  width: 25%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+/* Video #28 */
+
+.video28 div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #eee;
+  float: left;
+  width: calc((100% - 75px) / 4);
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+/*
+Content Width Is : 100%
+5 Spaces 1% * 5 => 5% From Content Width
+95% Available Space
+4 Elements The Width Is : 95% / 4
+*/
+
+/*
+Content Width Is : 100%
+5 Spaces 15px * 5 => 75px From Content Width
+100% - 75px Available Space
+4 Elements The Width Is : (100%-75px) / 4
+*/
+
+/* Vidoe #29 */
+.video29-1 {
+  background-color: red;
+  opacity: 0.5;
+}
+.video29-2 {
+  background-color: rgba(255, 0, 0, 0.116);
+}
+
+/*Video #30*/
+
+.video30 div {
+  color: white;
+  width: 100px;
+  padding: 10px;
+}
+/*
+body {
+  min-height: 5000px;
+}
+*/
+.video30-1 {
+  background-color: red;
+  position: absolute;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.video30-2 {
+  background-color: green;
+}
+
+.video30-3 {
+  width: 500px;
+  height: 300px;
+  background-color: blue;
+  position: relative;
+}
+/*
+.video30-4 {
+  background-color: yellow;
+  position: absolute;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}*/
+
+/* Video 3#1*/
+
+.video31 div {
+  padding: 10px;
+  color: white;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+}
+
+.video31-1 {
+  background-color: red;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+}
+
+.video31-2 {
+  background-color: green;
+  top: 18px;
+  left: 18px;
+  z-index: 1;
+}
+
+.video31-3 {
+  background-color: blue;
+  z-index: 0;
+}
+
+/* Video #32 */
+
+.video32 {
+  margin-top: 100px;
+}
+
+.video32 ul {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: url();
+  list-style: square outside url();
+  /*list-style: none;*/
+}
+.video32 li {
+  margin-bottom: 20px;
+}
+
+/* Video #33 */
+
+.video33-1 {
+  width: 100%;
+  border-spacing: 0px;
+}
+
+.video33-1 td {
+  padding: 5px;
+  background-color: #eee;
+  border: 2px solid #ccc;
+  font-family: Arial, Helvetica, sans-serifs;
+}
+
+.video33 thead td {
+  padding: 8px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-color: #f35246;
+}
+
+/* video #34 */
+.video34 {
+  margin-top: 30px;
+}
+
+.video34-1 {
+  background-color: red;
+  color: white;
+}
+.video34-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+}
+
+.video34 a {
+  color: green;
+  text-decoration: none;
+}
+
+.video34 a:hover {
+  color: red;
+}
+
+.video34-ch-1:checked + .video34-la-1 {
+  /*color: rgb(40, 116, 167);*/
+  display: none;
+}
+
+.video34-ch-1:checked {
+  display: none;
+}
+
+.video34-link-1:visited {
+  color: blue;
+}
+
+.video34-2:empty {
+  border: 1px solid red;
+}
+
+.video34-text {
+  border: 2px solid black;
+}
+
+.video34-text:focus {
+  border: 2px solid rgb(117, 19, 19);
+  outline: none;
+}
+
+/*Video #35*/
+
+.video35-1 span {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*      Or       */
+
+.video35-2::first-letter {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+/*----------------------*/
+.video35-3::first-line {
+  color: green;
+  font-weight: bold;
+}
+
+.video35-4::selection {
+  background-color: black;
+  color: yellow;
+}
+
+/* Video #36 */
+
+.video36 .parent {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.video36 .one {
+  background-color: #eee;
+  padding: 10px;
+  width: 600px;
+  float: left;
+  position: relative;
+}
+
+.video36 .user {
+  background-color: #eee;
+  width: 500px;
+  margin-right: 50px;
+  padding: 10px;
+  height: 55.5px;
+  float: left;
+  font-size: 50px;
+  text-align: center;
+}
+/*
+.video36 .one .pipeline {
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  right: -10px;
+  top: 0;
+  background-color: #2196f3;
+}
+*/
